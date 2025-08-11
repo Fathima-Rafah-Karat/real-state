@@ -7,31 +7,33 @@
 
  }
 
- .main  {
+ .main {
      position: relative;
      width: 100%;
      height: 100vh;
-     
+
 
  }
- .bg{
+
+ .bg {
      position: relative;
      width: 100%;
      height: 100vh;
-     
+
 
  }
- .color{
-    width: 100%;
-    height: 100%;
-    background-color: #063053;
-    opacity:60% ;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+ .color {
+     width: 100%;
+     height: 100%;
+     background-color: #063053;
+     opacity: 60%;
+     position: absolute;
+     top: 0;
+     left: 0;
 
 
-}
+ }
 
 
  .headerpart {
@@ -108,11 +110,12 @@
      transform: rotate(-90deg);
      border-width: 1px;
  }
- .phone{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
+ .phone {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
 
 
  header2 {
@@ -154,6 +157,7 @@
      background: none;
 
  }
+
  .mainsection {
      position: absolute;
      top: 10%;
@@ -193,7 +197,7 @@
      position: absolute;
      top: 85%;
      left: 50%;
-     translate:-50%;
+     translate: -50%;
  }
 
  .butn {
@@ -228,15 +232,17 @@
      border-radius: 4px;
 
  }
-.barpart{
-    width: 100%;
-}
+
+ .barpart {
+     width: 100%;
+ }
+
  .bar {
-    /* width: 80%; */
- display: grid;
- grid-template-columns:repeat(7,1fr);
- width: 100%;
-/* 
+     /* width: 80%; */
+     display: grid;
+     grid-template-columns: repeat(7, 1fr);
+     width: 100%;
+     /* 
      display: flex;
      justify-content: space-between;
      align-items: center; */
@@ -268,14 +274,14 @@
 
  }
 
-select{
-   font-size: 16px;
+ select {
+     font-size: 16px;
      font-weight: 400;
      color: #889099;
      margin: 0;
      border: none;
-    
-}
+
+ }
 
 
 
@@ -294,7 +300,7 @@ select{
      font-weight: 600;
      color: #2C3A61;
      margin: 0;
-      padding-bottom: 16px;
+     padding-bottom: 16px;
  }
 
 
@@ -308,7 +314,7 @@ select{
      font-weight: 600;
      color: #2C3A61;
      margin: 0;
-      padding-bottom: 16px;
+     padding-bottom: 16px;
  }
 
 
@@ -379,11 +385,12 @@ select{
      border-radius: 8px;
      position: relative;
  }
-  .Washington .p1 {
+
+ .Washington .p1 {
      width: 100%;
      height: 241 px;
      border-radius: 8px;
-  }
+ }
 
  .Washington h1 {
      position: absolute;
@@ -417,11 +424,13 @@ select{
      border-radius: 8px;
      position: relative;
  }
-  .Franklin .p2 {
+
+ .Franklin .p2 {
      width: 100%;
      height: 241 px;
      border-radius: 8px;
-  }
+ }
+
  .Franklin h1 {
      position: absolute;
      top: 24px;
@@ -452,11 +461,12 @@ select{
      border-radius: 8px;
      position: relative;
  }
-  .Clinton .p3 {
+
+ .Clinton .p3 {
      width: 100%;
      height: 241px;
      border-radius: 8px;
-  }
+ }
 
  .Clinton h1 {
      position: absolute;
@@ -553,11 +563,13 @@ select{
      border-radius: 8px;
      position: relative;
  }
+
  .Centerville .p5 {
      width: 100%;
      height: 241px;
      border-radius: 8px;
  }
+
  .Centerville h1 {
      position: absolute;
      top: 24px;
@@ -1826,7 +1838,7 @@ select{
 
      .galley {
          grid-template-columns: repeat(2, 1fr);
-         
+
      }
 
      .Arlington {
@@ -1871,7 +1883,7 @@ select{
      }
 
      .butnpart {
-         transform: translate(5%,-10%);
+         transform: translate(5%, -10%);
      }
 
      .bar {
@@ -1926,19 +1938,21 @@ select{
          font-size: 13px;
      }
 
-.container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+     .container {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
      }
+     
  }
 
  @media (max-width:768px) {
-    .envelope img{
-        padding-left: 50px;
-    }
-    .icon a{
-        padding-right: 50px;
-    }
+     .envelope img {
+         padding-left: 50px;
+     }
+
+     .icon a {
+         padding-right: 50px;
+     }
 
      .name {
          flex-direction: column;
@@ -1961,7 +1975,7 @@ select{
 
      .nav-links.active {
          display: flex;
-         margin-top: 50px;
+         margin-top: 0px;
      }
 
      .hamburger {
@@ -1971,16 +1985,17 @@ select{
      }
 
      .mainsection {
-         transform: translate(1%,117%);
+         transform: translate(1%, 117%);
      }
-     
-     .butnpart{
-        width: 70%;
-       top: 78%;
-       left: 40%;
-       translate: -45%;
-       /* transform: translate(0%,-20%); */
+
+     .butnpart {
+         width: 70%;
+         top: 78%;
+         left: 40%;
+         translate: -45%;
+         /* transform: translate(0%,-20%); */
      }
+
      .bar {
          /* width: 70%; */
          transform: translate(5%);
@@ -2004,13 +2019,14 @@ select{
          margin-right: 34px;
      }
 
-     .bar{
-        grid-template-columns: repeat(2,1fr);
-        gap: 12px;
+     .bar {
+         grid-template-columns: repeat(2, 1fr);
+         gap: 12px;
 
      }
-     .bar hr{
-        display: none;
+
+     .bar hr {
+         display: none;
      }
 
      .sell {
@@ -2060,12 +2076,14 @@ select{
      .free p {
          font-size: 10px;
      }
-      .photo{
+
+     .photo {
          grid-template-columns: repeat(2, 1fr);
-      }
-     .Arlington{
-        grid-column: span 2;
-      
+     }
+
+     .Arlington {
+         grid-column: span 2;
+
      }
 
      .galley {
@@ -2076,152 +2094,187 @@ select{
          gap: 25px;
      }
  }
- @media (max-width:640px){
- .envelope img{
-        padding-left: 10px;
-    }
-    .icon a{
-        padding-right: 10px;
-    }
-    .mainsection{
-        transform: translate(1% ,180%);
-    }
-    .mainsection h1{
-        font-size: 42px;
-    }
-    .mainsection p{
-        font-size: 15px;
-        text-align: center;
-    }
-    .butnpart{
-        transform: translate(10%,-10%);
-    }
-    .bar{
-        transform: translate(-5%);
-    }
-    .lastsection{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .col1 {
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .container{
-        flex-direction: column;
-    }
-    .sell{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-        .rent{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-        .buy{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-        .free{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-      .photo{
-      grid-template-columns: repeat(1, 1fr);
-      }
-     .Arlington{
-        grid-column: unset;
-      
+
+ @media (max-width:640px) {
+     .envelope img {
+         padding-left: 10px;
      }
-     .container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+
+     .icon a {
+         padding-right: 10px;
      }
-     .center h1{
-       font-size: 30px;
+
+     .mainsection {
+         transform: translate(1%, 180%);
      }
-     .center p{
-        font-size: 14px;
-        text-align: center;
-         max-width: 496px
+
+     .mainsection h1 {
+         font-size: 42px;
      }
-     .rentsection h1{
-      font-size: 30px;
+
+     .mainsection p {
+         font-size: 15px;
+         text-align: center;
      }
-     .rentsection p{
-         font-size: 14px;
-        text-align: center;
-         max-width: 496px
+
+     .butnpart {
+         transform: translate(10%, -10%);
      }
-     .rentpage h1{
-        font-size: 30px;
+
+     .bar {
+         transform: translate(-5%);
      }
-     .rentpage p{
-         font-size: 14px;
-        text-align: center;
-         max-width: 496px
+
+     .lastsection {
+         display: flex;
+         flex-direction: column;
+         text-align: center;
      }
-     .subsection h1{
-        font-size: 30px;
+
+     .col1 {
+         text-align: center;
+         display: flex;
+         justify-content: center;
+         align-items: center;
      }
-     .subsection p{
-         font-size: 14px;
-        text-align: center;
-         max-width: 496px
+
+     .container {
+         flex-direction: column;
      }
-      .area h1{
-        font-size: 30px;
+
+     .sell {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
      }
-     .area p{
-         font-size: 14px;
-        text-align: center;
-         max-width: 496px
+
+     .rent {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
      }
- }
- @media (max-width:450px){
-    .main .bg{
-        object-fit: cover;
-    }
-    header1{
-        display: none;
-    }
-    hr{
-        display: none;
-    }
-    header2 img{
-        padding: 10px;
-    }
-    .hamburger{
-        padding: 10px;
-    }
-    .mainsection{
-        transform: translate(5%,180%);
-    }
-    .mainsection h1{
-        font-size: 25px;
-    }
-    .mainsection p{
-        font-size: 10px;
-        max-width: 380px;
-        text-align: center;
-    }
-   
-    .bar{
+
+     .buy {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+     }
+
+     .free {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+     }
+
+     .photo {
          grid-template-columns: repeat(1, 1fr);
-    }
-    .butnpart{
-        transform: translate(17%,-28%);
-    }
+     }
+
+     .Arlington {
+         grid-column: unset;
+
+     }
+
+     .container {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .center h1 {
+         font-size: 30px;
+     }
+
+     .center p {
+         font-size: 14px;
+         text-align: center;
+         max-width: 496px
+     }
+
+     .rentsection h1 {
+         font-size: 30px;
+     }
+
+     .rentsection p {
+         font-size: 14px;
+         text-align: center;
+         max-width: 496px
+     }
+
+     .rentpage h1 {
+         font-size: 30px;
+     }
+
+     .rentpage p {
+         font-size: 14px;
+         text-align: center;
+         max-width: 496px
+     }
+
+     .subsection h1 {
+         font-size: 30px;
+     }
+
+     .subsection p {
+         font-size: 14px;
+         text-align: center;
+         max-width: 496px
+     }
+
+     .area h1 {
+         font-size: 30px;
+     }
+
+     .area p {
+         font-size: 14px;
+         text-align: center;
+         max-width: 496px
+     }
  }
- 
+
+ @media (max-width:450px) {
+     .main .bg {
+         object-fit: cover;
+     }
+
+     header1 {
+         display: none;
+     }
+
+     hr {
+         display: none;
+     }
+
+     header2 img {
+         padding: 10px;
+     }
+
+     .hamburger {
+         padding: 10px;
+     }
+
+     .mainsection {
+         transform: translate(5%, 180%);
+     }
+
+     .mainsection h1 {
+         font-size: 25px;
+     }
+
+     .mainsection p {
+         font-size: 10px;
+         max-width: 380px;
+         text-align: center;
+     }
+
+     .bar {
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+     .butnpart {
+         transform: translate(17%, -28%);
+     }
+ }

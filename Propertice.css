@@ -6,6 +6,7 @@
 .bg{
     width: 100%;
     height: 55vh;
+   
     position: relative; 
 }
 .color{
@@ -144,8 +145,8 @@ a {
 }
 .title{
 position: absolute;
-transform: translate(132%,-103%);
-padding: 66px;
+transform: translate(241%,-187%);
+/* padding: 66px; */
 
 }
 .title h1{
@@ -770,7 +771,7 @@ gap: 8px;
          color:#4A60A1;
      }
      .title{
-        transform: translate(87%,-99%);
+        transform: translate(154%,-150%);
      }
      .image{
         height: 61vh;
@@ -817,7 +818,7 @@ gap: 8px;
        font-size: 32px;
      }
      .lastsection{
-        gap:45px;
+        gap:20px;
      }
 
 }
@@ -877,13 +878,13 @@ gap: 8px;
         padding-left: 10px;
     }
     .title{
-        transform: translate(43%,-102%);
+        transform: translate(109%,-150%);
     }
 
 }
 @media(max-width:640px){
    .title{
-    transform: translate(26%,-84%);
+    transform: translate(79%,-150%);
    }
    
    .barpart{
@@ -931,8 +932,9 @@ gap: 8px;
     header1{
         display: none;
     }
+
     .title{
-        transform: translate(0%,-146%);
+        transform: translate(46%,-150%);
     }
     .barpart{
         padding-left: 25px;
