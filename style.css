@@ -541,7 +541,8 @@
  .Arlington button {
      font-size: 16px;
      font-weight: 500;
-     border: 1px solid #FFFFFF;
+     border: none;
+     /* border: 1px solid #FFFFFF; */
      border-radius: 4px;
      padding: 12px 24px 12px 24px;
      color: #FFFFFF;
@@ -550,6 +551,9 @@
      /* position: absolute; */
      /* width: 50%; */
 
+ }
+ .Arlington button:hover{
+      border: 1px solid #FFFFFF;
  }
 
  .Arlington .small {
@@ -637,8 +641,8 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     /* padding-left: 300px;
-      padding-right: 322px; */
+     padding-left: 20px;
+      padding-right: 20px;
      gap: 46px;
  }
 
@@ -814,7 +818,11 @@
      margin: 0;
      color: #4A60A1;
  }
-
+.mainset{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px 20px; */
+}
  .rentpage {
      padding-top: 100px;
      display: flex;
@@ -845,6 +853,7 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
  .rentgalley {
      display: flex;
      justify-content: center;
@@ -859,6 +868,7 @@
      gap: 24px;
      /* box-shadow: 0px 0px 8px rgb(181, 179, 179); */
  }
+ 
 
  .box1 {
      width: 100%;
@@ -948,7 +958,7 @@
  }
 
  .profile {
-     width: 372.61px;
+     width: 100%;
      height: 42px;
      display: flex;
      justify-content: space-between;
@@ -1576,6 +1586,9 @@
      padding: 4.27px 12.82px;
      border-radius: 2.14px;
  }
+ .card .detail:hover{
+    border: 1px solid #FFFFFF;  
+ }
 
  .card .detail {
      position: absolute;
@@ -1585,7 +1598,8 @@
      background-color: rgba(255, 255, 255, -0.1);
      transition: background 0.3s;
      color: #FFFFFF;
-     border: 1px solid #FFFFFF;
+     border: none;
+     /* border: 1px solid #FFFFFF; */
      padding: 12px 24px;
  }
 .Location1{
@@ -1700,6 +1714,10 @@ padding-top: 32px;
 
  .living {
      position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
  }
 
  .living img {
@@ -1941,6 +1959,7 @@ padding-top: 32px;
      .name {
          flex-direction: column;
          gap: 18px;
+         
      }
 
      .nav-links {
@@ -1956,7 +1975,9 @@ padding-top: 32px;
          z-index: 10;
          align-items: center;
      }
-
+header2 .name{
+    margin: 0;
+}
      .nav-links.active {
          display: flex;
          margin-top: 50px;
@@ -2034,7 +2055,7 @@ padding-top: 32px;
          grid-template-columns: repeat(2, 1fr);
      }
      .center{
-        translate: -9%;
+        translate: -15%;
      }
 
  }
@@ -2247,6 +2268,7 @@ padding-top: 32px;
 
      .container {
          flex-direction: column;
+         padding: 0px 20px;
      }
 
      .sell {
@@ -2361,6 +2383,7 @@ padding-top: 32px;
      hr {
          display: none;
      }
+  
 
      header2 img {
          padding: 10px;
@@ -2380,6 +2403,9 @@ padding-top: 32px;
      .mainsection h1 {
          font-size: 25px;
      }
+     .center p{
+        font-size: 11px;
+     }
 
      .mainsection p {
          font-size: 10px;
@@ -2388,10 +2414,61 @@ padding-top: 32px;
      }
 
      .bar {
-         grid-template-columns: repeat(1, 1fr);
+         grid-template-columns: repeat(2, 1fr);
      }
-
+.loc{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.range{
+    padding: 0px 13px;
+}
+.type{
+    padding: 0px 7px;
+}
      .butnpart {
-         transform: translate(17%, -37%);
+        bottom: -10%;
+        translate:-50% ;
      }
+  .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box1{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .profile{
+    width: 100%;
+  }
+    .box2{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+    .box3{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+    .box4{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+   .box5{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+   .box6{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
  }
+ 
