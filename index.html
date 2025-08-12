@@ -6,107 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>figma2</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-    
-        <div class="main">
-            
-            <img class="bg" src="./861bdcb8d5290caa346a612d903b402409ff256a (1).jpg" alt="">
-          <div class="color"></div>
-            <div class="headerpart">
+
+    <div class="main">
+
+        <img class="bg" src="./861bdcb8d5290caa346a612d903b402409ff256a (1).jpg" alt="">
+        <div class="color"></div>
+        <div class="headerpart">
 
 
 
-                <header1>
-                    <div class="envelope">
-                        <img src="./EnvelopeOpen.png" alt="">
-                        <h5>Email us at :<span>example@mail.com</span> </h5>
+            <header1>
+                <div class="envelope">
+                    <img src="./EnvelopeOpen.png" alt="">
+                    <h5>Email us at :<span>example@mail.com</span> </h5>
+                </div>
+                <div class="icon">
+                    <img src="./Social Media logo.png" alt="">
+                    <img src="./Social Media logo (1).png" alt="">
+                    <img src="./Social Media card (1).png" alt="">
+                    <img src="./Social Media card (2).png" alt="">
+                    <img src="./Social Media card (3).png" alt="">
+                    <img class="line" src="./Line 2.png" alt="">
+                    <div class="phone">
+                        <img src="./Phone.png" alt="">
+                        <a href="#">123-4567 890</a>
                     </div>
-                    <div class="icon">
-                        <img src="./Social Media logo.png" alt="">
-                        <img src="./Social Media logo (1).png" alt="">
-                        <img src="./Social Media card (1).png" alt="">
-                        <img src="./Social Media card (2).png" alt="">
-                        <img src="./Social Media card (3).png" alt="">
-                        <img class="line" src="./Line 2.png" alt="">
-                        <div class="phone">
-                            <img src="./Phone.png" alt="">
-                            <a href="#">123-4567 890</a>
+                </div>
+            </header1>
+            <hr>
+
+            <header2>
+
+                <img src="./logo.png" alt="">
+                <nav class="navbar">
+                    <div class="hamburger" onclick="toggleMenu()">
+                        &#9776;
+                    </div>
+                    <div class="nav-links" id="navlinks">
+                        <div class="name">
+                            <a href="index.html">HOME</a>
+                            <a href="#">ABOUT US</a>
+                            <a href="#">OUR AGENTS</a>
+                            <a href="Propertice.html" class="nav-button">PROPERTIES</a>
+                            <a href="#">GALLERY</a>
+                            <a href="#">BLOG</a>
+                            <a href="#">CONTACT US</a>
+                            <a href="#">SEARCH</a>
+                            <a><button>Add Listing</button></a>
                         </div>
                     </div>
-                </header1>
+                </nav>
+
+            </header2>
+        </div>
+
+        <div class="mainsection">
+            <h1>Find Your Dream Home</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales
+                ultrices nulla blandit volutpat.
+            </p>
+        </div>
+        <div class="butnpart">
+            <div class="butn">
+                <button class="rentbut">Rent</button>
+                <button class="salebut">Sale</button>
+            </div>
+
+
+            <div class="bar">
+                <div class="loc">
+                    <h4>Locations</h4>
+                    <select>
+                        <option>Select your city</option>
+                    </select>
+                    <!-- <p>Select your city<img src="./CaretDown.png" alt=""></p> -->
+                </div>
                 <hr>
-
-                <header2>
-
-                    <img src="./logo.png" alt="">
-                    <nav class="navbar">
-                        <div class="hamburger" onclick="toggleMenu()">
-                            &#9776;
-                        </div>
-                        <div class="nav-links" id="navlinks">
-                            <div class="name">
-                                <a href="index.html">HOME</a>
-                                <a href="#">ABOUT US</a>
-                                <a href="#">OUR AGENTS</a>
-                                <a href="Propertice.html"class="nav-button" >PROPERTIES</a>
-                                <a href="#">GALLERY</a>
-                                <a href="#">BLOG</a>
-                                <a href="#">CONTACT US</a>
-                                <a href="#">SEARCH</a>
-                                <a><button>Add Listing</button></a>
-                            </div>
-                        </div>
-                    </nav>
-
-                </header2>
-            </div>
-
-            <div class="mainsection">
-                <h1>Find Your Dream Home</h1>
-                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales
-                    ultrices nulla blandit volutpat.
-                </p>
-            </div>
-            <div class="butnpart">
-                <div class="butn">
-                    <button class="rentbut">Rent</button>
-                    <button class="salebut">Sale</button>
+                <div class="type">
+                    <h4>Property Type</h4>
+                    <select>
+                        <option>Select property type</option>
+                    </select>
+                    <!-- <p>Select property type<img src="./CaretDown.png" alt=""></p> -->
                 </div>
+                <hr>
+                <div class="range">
+                    <h4>Rent Range</h4>
+                    <select>
+                        <option>Select rent range</option>
+                    </select>
+                    <!-- <p>Select rent range<img src="./CaretDown.png" alt=""></p> -->
 
-
-                <div class="bar">
-                    <div class="loc">
-                        <h4>Locations</h4>
-                        <select>
-                            <option>Select your city</option>
-                        </select>
-                        <!-- <p>Select your city<img src="./CaretDown.png" alt=""></p> -->
-                    </div>
-                    <hr>
-                    <div class="type">
-                        <h4>Property Type</h4>
-                        <select>
-                            <option>Select property type</option>
-                        </select>
-                        <!-- <p>Select property type<img src="./CaretDown.png" alt=""></p> -->
-                    </div>
-                    <hr>
-                    <div class="range">
-                        <h4>Rent Range</h4>
-                        <select>
-                            <option>Select rent range</option>
-                        </select>
-                        <!-- <p>Select rent range<img src="./CaretDown.png" alt=""></p> -->
-
-                    </div>
-                    <hr>
-                    <button>Search</button>
                 </div>
+                <hr>
+                <button>Search</button>
             </div>
         </div>
-   
+    </div>
+
 
     <div class="area">
         <h1>Propertice by Area</h1>
@@ -193,7 +196,7 @@
         <div class="galley">
             <div class="box1">
                 <img src="./Rectangle 18.png" alt="">
-               
+
                 <div class="content">
                     <h1>92 ALLIUM PLACE, ORLANDO FL 32827</h1>
                     <p>$ 590,693</p>
@@ -350,9 +353,168 @@
             ultrices nulla blandit volutpat.</p>
 
     </div>
-    <!-- <div class="side"> -->
-    <!-- //// -->
-    <div class="slider-container">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <img src="./c9f7818356664b9ec0231af50bfdcedbf9172101 (1).jpg" alt="">
+                    <button class="hot">hot offer</button>
+
+                    <button class="detail">View Details</button>
+                    <div class="Location1">
+                        <div class="vector">
+                            <img src="./Vector (1).png" alt="">
+                        </div>
+                        <h1>Washington</h1>
+                    </div>
+                    <div class="frame">
+                        <img src="./ArrowsOut.png " alt="">
+                        <h1>12000</h1>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <img src="./7506fcabe10d0c129950437e470131683741415c (1).jpg" alt="">
+                    <div class="Location1">
+                        <div class="vector">
+                            <img src="./Vector (1).png" alt="">
+                        </div>
+                        <h1>Washington</h1>
+                    </div>
+                    <div class="frame">
+                        <img src="./ArrowsOut.png " alt="">
+                        <h1>12000</h1>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <img src="./c1b84915fef265f827f4d81f4dc08225e45af15b.jpg" alt="">
+                    <button class="hot">hot offer</button>
+                    <div class="Location1">
+                        <div class="vector">
+                            <img src="./Vector (1).png" alt="">
+                        </div>
+                        <h1>Washington</h1>
+                    </div>
+                    <div class="frame">
+                        <img src="./ArrowsOut.png " alt="">
+                        <h1>12000</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <img src="./9416dc5628ff3450fe625293d5d929013231c927 (1).jpg" alt="">
+                    <div class="Location1">
+                        <div class="locat">
+                            <div class="vector">
+                                <img src="./Vector (1).png" alt="">
+                            </div>
+                        </div>
+                        <h1>Washington</h1>
+                    </div>
+                    <div class="frame">
+                        <img src="./ArrowsOut.png " alt="">
+                        <h1>12000</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <img src="./0ca733a4348361da5a46701851fdb2164d98911c (1).jpg" alt="">
+                    <div class="Location1">
+                        <div class="vector">
+                            <img src="./Vector (1).png" alt="">
+                        </div>
+                        <h1>Washington</h1>
+                    </div>
+                    <div class="frame">
+                        <img src="./ArrowsOut.png " alt="">
+                        <h1>12000</h1>
+                    </div>
+                </div>
+            </div>
+   <div class="swiper-slide">
+                <div class="card">
+                    <img src="./c1b84915fef265f827f4d81f4dc08225e45af15b.jpg" alt="">
+                    <div class="Location1">
+                        <div class="vector">
+                            <img src="./Vector (1).png" alt="">
+                        </div>
+                        <h1>Washington</h1>
+                    </div>
+                    <div class="frame">
+                        <img src="./ArrowsOut.png " alt="">
+                        <h1>12000</h1>
+                    </div>
+                </div>
+            </div>
+
+   <div class="swiper-slide">
+                <div class="card">
+                    <img src="./9416dc5628ff3450fe625293d5d929013231c927 (1).jpg" alt="">
+                    <div class="Location1">
+                        <div class="vector">
+                            <img src="./Vector (1).png" alt="">
+                        </div>
+                        <h1>Washington</h1>
+                    </div>
+                    <div class="frame">
+                        <img src="./ArrowsOut.png " alt="">
+                        <h1>12000</h1>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- ...
+  </div>
+  /*If we need pagination  */
+  <div class="swiper-pagination"></div> -->
+
+            <!-- If we need navigation buttons -->
+            
+        </div>
+        <div class="arrowmain">
+        <div class="swiper-prev">
+            <div class="arrow">
+                <button class="leftarrow">
+                    <img src="./ArrowLeft.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="swiper-next">
+            <div class="arrow">
+                <button class="rightarrow">
+                    <img src="./ArrowRight.png" alt="">
+                </button>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="side"> -->
+        <!-- //// -->
+        <!-- <div class="slider-container">
         <div class="slider" id="slider">
 
             <div class="card">
@@ -374,93 +536,113 @@
                 <img src="./Group 11.png" alt="">
             </div>
         </div>
-    </div>
-    <div class="arrow">
+    </div> -->
+        <!-- <div class="arrow">
         <button class="leftarrow">
             <img src="./ArrowLeft.png" alt="">
         </button>
         <button class="rightarrow">
             <img src="./ArrowRight.png" alt="">
         </button>
-    </div>
-    <div class="living">
-        <div class="center">
-            <h1>Find Best Place For Living</h1>
-            <p>Spend vacations in best hotels and resorts find the great place of your
-                choice using different searching options.</p>
-            <button class="contact">Contact Us</button>
+    </div> -->
+        <div class="living">
+            <img src="./c1b84915fef265f827f4d81f4dc08225e45af15b.jpg" alt="">
+            <div class="color1"></div>
+            <div class="center">
+                <h1>Find Best Place For Living</h1>
+                <p>Spend vacations in best hotels and resorts find the great place of your
+                    choice using different searching options.</p>
+                <button class="contact">Contact Us</button>
+            </div>
         </div>
-    </div>
-    <div class="lastsection">
-        <div class="col1">
-            <img src="./logo (2).png" alt="">
-            <h1>Contact Us</h1>
-            <p>Call : +123 400 123</p>
-            <p>Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-            <h5>Email: example@mail.com</h5>
-            <div class="icons">
-                <img src="./Social Media card (9).png" alt="">
-                <img src="./Social Media card (10).png" alt="">
-                <img src="./Social Media card (11).png" alt="">
-                <img src="./Social Media card (12).png" alt="">
-                <img src="./Social Media card (13).png" alt="">
+        <div class="lastsection">
+            <div class="col1">
+                <img src="./logo (2).png" alt="">
+                <h1>Contact Us</h1>
+                <p>Call : +123 400 123</p>
+                <p>Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                <h5>Email: example@mail.com</h5>
+                <div class="icons">
+                    <img src="./Social Media card (9).png" alt="">
+                    <img src="./Social Media card (10).png" alt="">
+                    <img src="./Social Media card (11).png" alt="">
+                    <img src="./Social Media card (12).png" alt="">
+                    <img src="./Social Media card (13).png" alt="">
+
+                </div>
+            </div>
+            <div class="col2">
+                <h1>Features</h1>
+                <p>Home</p>
+                <p>Become a Host</p>
+                <p>Pricing</p>
+                <p>Blog</p>
+                <p>Contact</p>
+            </div>
+            <div class="col3">
+                <h1>Company</h1>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Contact</p>
+                <p>Careers</p>
+                <p>Blog</p>
+            </div>
+            <div class="col4">
+                <h1>Team and policies</h1>
+                <p>Terms of servies</p>
+                <p>Privacy Policy</p>
+                <p>Security</p>
 
             </div>
         </div>
-        <div class="col2">
-            <h1>Features</h1>
-            <p>Home</p>
-            <p>Become a Host</p>
-            <p>Pricing</p>
-            <p>Blog</p>
-            <p>Contact</p>
-        </div>
-        <div class="col3">
-            <h1>Company</h1>
-            <p>About Us</p>
-            <p>Press</p>
-            <p>Contact</p>
-            <p>Careers</p>
-            <p>Blog</p>
-        </div>
-        <div class="col4">
-            <h1>Team and policies</h1>
-            <p>Terms of servies</p>
-            <p>Privacy Policy</p>
-            <p>Security</p>
-
-        </div>
-    </div>
-    <!-- //// -->
-    <!-- <script>
-            const slider = document.getElementById("slider");
-            const cards = slider.querySelectorAll(".card");
-            let currentIndex = -1; // Start before the first card
-
-            function scrollToCard(index) {
-                if (index >= 0 && index < cards.length) {
-                    cards[index].scrollIntoView({ behavior: "smooth", inline: "center" });
-                    currentIndex = index;
-                }
+        <!-- //// -->
+        
+        <script>
+            function toggleMenu() {
+                document.getElementById("navlinks").classList.toggle("active");
             }
+        </script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                slidesPerView: 5,
+                spaceBetween: 10,
+                grabCursor: true,
 
-            document.querySelector(".rightarrow").addEventListener("click", () => {
-                if (currentIndex < cards.length - 1) {
-                    scrollToCard(currentIndex + 1);
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-next',
+                    prevEl: '.swiper-prev',
+                },
+
+                // And if we need scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+                breakpoints:{
+                    0:{
+                        slidesPerView:1,
+                        spaceBetween:10
+                    },
+                    640:{
+                        slidesPerView:2,
+                        spaceBetween:20
+                    },
+                    768:{
+                       slidesPerView:3,
+                        spaceBetween:10 
+                    },
+                    1024:{
+                      slidesPerView:4,
+                        spaceBetween:10    
+                    },
+                    1280:{
+                         slidesPerView:5,
+                        spaceBetween:10 
+                    }
                 }
             });
-
-            document.querySelector(".leftarrow").addEventListener("click", () => {
-                if (currentIndex > 0) {
-                    scrollToCard(currentIndex - 1);
-                }
-            });
-        </script> -->
-    <script>
-        function toggleMenu() {
-            document.getElementById("navlinks").classList.toggle("active");
-        }
-    </script>
+        </script>
 
 </body>
 
