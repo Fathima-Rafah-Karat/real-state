@@ -2365,6 +2365,9 @@ padding-top: 32px;
      header2 img {
          padding: 10px;
      }
+     .center h1{
+        font-size: 26px;
+     }
 
      .hamburger {
          padding: 10px;
